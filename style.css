@@ -1,0 +1,76 @@
+h1 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url(https://wallpapercave.com/wp/wp4038049.jpg);
+    background-size: cover;
+    align-content: center;
+}
+
+input[type="button" i] {
+
+/*  appearance: push-button;
+    user-select: none;
+    white-space: pre;
+    align-items: center;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    border-width: 6px;
+    width: 10rem;
+    height: 10rem;
+    border: 5px ridge blueviolet;
+    border-radius: 5px;
+    background-color: lightblue;
+    text-transform: uppercase; */
+
+    width: 10rem;
+    height: 10rem;
+    text-align: center;
+    border-radius: 5px;
+    border: 5px ridge blueviolet;
+    background-color: lightblue;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+@media (max-width: 768px) {
+    input {
+        width: 5rem;
+        height: 5rem;
+    }
+}
+
+input:hover {
+    background-color: #a09e9e;
+}
+
+.contenedor{
+    max-width: 1200px;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-basis: 100%;
+    flex-direction: column;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.fl_right {
+    color: white;
+    margin-left: 70%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
